@@ -55,7 +55,7 @@ p {
   float: right;
 }
 .index4 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 90%;
   position: absolute;
   top: 5px;
@@ -86,11 +86,10 @@ button {
   border-radius: 20px;
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  * .index3 {
-    border: 1px solid black;
+  .index4 {
     width: 90%;
     position: absolute;
-    top: 30px;
+    top: 100px;
 
     height: 180px;
     z-index: 2;
@@ -98,16 +97,18 @@ button {
   form {
     text-align: center;
     color: red;
-    width: 30%;
-    height: 70px;
+    width: 50%;
+    height: 120px;
     margin: auto;
     border: 1px solid red;
     margin-top: 70px;
-    font-size: 10px;
+    font-size: 13px;
+    padding-top: 20px;
+    border-radius: 6px;
   }
   input {
     border: 1px solid red;
-    height: 6px;
+    height: 16px;
     width: 50%;
     box-shadow: 2px 2px 2px gray;
     border-radius: 6px;
@@ -115,7 +116,7 @@ button {
   button {
     color: white;
     background-color: red;
-    width: 60%;
+    width: 20%;
     height: 15px;
     border-radius: 6px;
     font-size: 10px;
